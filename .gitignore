@@ -1,0 +1,11 @@
+/SupplyChainManager/nbproject/private/
+
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+/SupplyChainManager/build/
+/SupplyChainManager/nbbuild/
+/SupplyChainManager/dist/
+/SupplyChainManager/nbdist/
+/SupplyChainManager/.nb-gradle/
+

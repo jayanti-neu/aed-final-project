@@ -4,10 +4,19 @@
  */
 package Business.Role;
 
+import Business.ProductTracking.Truck;
+
 /**
  *
  * @author jayanti
  */
 public class LogisticsManager {
-    
+ 
+    public Truck scheduleTruck(){
+        Truck truck = new Truck();
+        truck.setDriver();
+        truck.setDestination();
+        truck.setStartingLocation();
+        return truck;
+    }
 }

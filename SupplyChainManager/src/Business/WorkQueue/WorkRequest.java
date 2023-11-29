@@ -9,5 +9,15 @@ package Business.WorkQueue;
  * @author jayanti
  */
 public class WorkRequest {
+    String senderEnterprise;
+    String senderOrganisation;
+    String recieverEnterprise;
+    String reciverOrganisation;
+    Product product;
+    int quantity;
+    String sentBy;
+    String status;
+    
+    String assignedTo;
     
 }

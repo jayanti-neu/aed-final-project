@@ -4,10 +4,18 @@
  */
 package Business.WorkQueue;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author jayanti
  */
 public class WorkQueue {
+    ArrayList<WorkRequest> workRequestList;
     
+    public WorkRequest addWorkRequest(){
+        WorkRequest wr = new WorkRequest();
+        wr.add();
+        return wr;
+    }
 }

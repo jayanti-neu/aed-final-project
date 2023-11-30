@@ -8,6 +8,6 @@ package Business.Enterprise;
  *
  * @author jayanti
  */
-public class WarehouseEnterprise extends Enterprise{
+public class ProcessorEnterprise {
     
 }

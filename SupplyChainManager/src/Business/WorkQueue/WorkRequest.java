@@ -4,6 +4,8 @@
  */
 package Business.WorkQueue;
 
+import Business.ProductTracking.Product;
+
 /**
  *
  * @author jayanti
@@ -17,7 +19,6 @@ public class WorkRequest {
     int quantity;
     String sentBy;
     String status;
-    
     String assignedTo;
     
 }

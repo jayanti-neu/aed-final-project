@@ -16,4 +16,34 @@ public class Organisation {
     Enterprise enterprise;
     String name;
     ArrayList<Role> rolesDirectory;
+    
+    public Organisation(){
+        rolesDirectory = new ArrayList<>();
+    }
+
+    public Enterprise getEnterprise() {
+        return enterprise;
+    }
+
+    public void setEnterprise(Enterprise enterprise) {
+        this.enterprise = enterprise;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public ArrayList<Role> getRolesDirectory() {
+        return rolesDirectory;
+    }
+
+    public void setRolesDirectory(ArrayList<Role> rolesDirectory) {
+        this.rolesDirectory = rolesDirectory;
+    }
+    
+    
 }

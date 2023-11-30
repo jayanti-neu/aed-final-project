@@ -8,6 +8,6 @@ package Business.Role;
  *
  * @author jayanti
  */
-public class WarehouseGroundWorker {
+public class Retailer {
     
 }
